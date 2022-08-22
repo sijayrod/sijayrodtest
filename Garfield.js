@@ -1078,25 +1078,7 @@ case 'sex':{
              await GarfieldNeural.sendButtonText(m.chat, buttons, jawab,`Neural Ai` , m, {mentions: ments})
             }
             break
-            case 'stk':{
-					 var ttinullimage = await axios.get(`https://api.xteam.xyz/attp?file&text=${text}`, { responseType: 'arraybuffer' })
-        await GarfieldNeural.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp })
-					}
-break
-case 'antibad': {
-if(text == 'on'){
-Antibd = true
-if(Antibd = true){m.reply("Anti bad On ⚠️")
-}
-}
-}
-break
-case 'pakaya': {
-if(Antibd = true){
-reply("Bad word")
-}
-            }
-            break
+
             case 'getsong': {
             
                 if (!text) return reply(`Example : ${prefix + command} kuweni`)
@@ -1114,7 +1096,7 @@ reply("Bad word")
                 GarfieldNeural.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `{media.title}.m4a` }, { quoted: m }) 
             
             }
-            }
+          
             break
       
       
