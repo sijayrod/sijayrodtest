@@ -91,15 +91,13 @@ module.exports = GarfieldNeural = async (GarfieldNeural, m, chatUpdate, store) =
 	
 	//group target \\
 const reply = (teks) => {
-let picone = await (await fetch(`${global.thumb}`))
-            GarfieldNeural.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝖦Λ𝖱𝖥𝖨Ξ𝖫𝖣 𝖡𝖮Т`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": picone,"sourceUrl": `http://Wa.me//${global.ownernomer}?text=*Hello🦋*`}}}, { quoted: m})
+            GarfieldNeural.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝖦Λ𝖱𝖥𝖨Ξ𝖫𝖣 𝖡𝖮Т`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./TempCloud/logo.png`),"sourceUrl": `http://Wa.me//${global.ownernomer}?text=*Hello🦋*`}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-        let pictwo = await (await fetch(`${global.thumb}`))
-            GarfieldNeural.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝖦Λ𝖱𝖥𝖨Ξ𝖫𝖣 𝖡𝖮Т`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": pictwo,"sourceUrl": `http://Wa.me//${global.ownernomer}?text=*Hello🦋*`}}}, { quoted: m})
+            GarfieldNeural.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝖦Λ𝖱𝖥𝖨Ξ𝖫𝖣 𝖡𝖮Т`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./TempCloud/logo.png`),"sourceUrl": `http://Wa.me//${global.ownernomer}?text=*Hello🦋*`}}}, { quoted: m})
         }
-	
+
         //Public & Self\\
         if (!GarfieldNeural.public) {
             if (!m.key.fromMe) return
