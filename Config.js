@@ -57,7 +57,20 @@ global.mess = {
     error: 'Error! Maybe Api Key Is Expired🤔!', // 👈 You Can change this your choice
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 } // 👈 You Can change this your choice
-// Do Not Change 👇 
+/// Do Not Change 👇 
+global.limitAwal = "99999999999999999"
+global.lolkey = "835641f3d2d1b6971e1fd132"
+global.xteam = "apivproject"
+global.xcodeapi = "5S3epf7hC2"
+global.dapaapi = "piceg"
+global.sankey = "sanuwa"
+global.xteamkey = "nandowangy"
+global.carkey = "cakrayp24Q6"
+global.violkey = "beta"
+global.HunterApi = "FuckBitch"
+global.neokey = "V8qnSaTq"
+global.riy = "RiyGanz"
+
     global.limitawal = {
     premium: "Infinity",
     free: 12,
