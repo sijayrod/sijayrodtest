@@ -112,8 +112,6 @@ async function startGarfieldNeural() {
     
 
 //document randomizer
-let documents = [doc1,doc2,doc3,doc4,doc5,doc6]
-let docs = pickRandom(documents)
 
     GarfieldNeural.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
